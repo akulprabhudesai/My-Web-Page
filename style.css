@@ -1,0 +1,111 @@
+/* global section */
+
+*{
+box-sizing: border-box;
+}
+
+body{
+ padding :0px;
+ margin: 0px;
+ background-color: #33cccc
+}
+
+/* Logo section */
+
+#a{
+	background-color: Aqua;
+	height:100px;
+	width:100%;
+	margin-bottom: 10px;
+}
+
+#GitHub{
+	width: 75px;
+    height: 75px;
+	position: relative;
+	left:60px;
+	top:12px;
+
+}
+
+#linked_in{
+	width: 75px;
+    height: 75px;
+	position: relative;
+	left:30px;
+	top : 12px;
+
+}
+.aligncenter {
+	width:150px;
+    text-align: center;
+    margin-top: 0px;
+	padding-top: 0px;
+}
+#linked_in:hover {
+	cursor: pointer;
+}
+#GitHub:hover {
+	cursor: pointer;
+}
+
+
+/*label section*/
+
+ label{
+  	width:150px;
+  	float:right; 	
+  	font-size: 30px;
+}
+.a{
+position: relative;
+right:100px;
+top:30px;
+}
+.b{
+	position: relative;
+	right:150px;
+	top:30px;
+	cursor: pointer;
+}
+.c{
+	position: relative;
+	right:200px;
+	top:30px;
+	cursor: pointer;
+}
+
+
+.s4{
+	clear:both;
+	position:relative;
+	top:50px;
+	right:750px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+.s5{
+	
+	position:relative;
+	top:50px;
+	right:435px;
+	padding-bottom: 20px;
+}
+
+label:hover {
+	
+	color:white;
+	cursor: pointer;
+}
+
+#b{
+
+height:750px;
+}
+#c{
+height:120px;
+clear:both;
+background-color: #009999;
+
+}
