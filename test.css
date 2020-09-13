@@ -1,0 +1,131 @@
+	*{
+		box-sizing: border-box;
+		padding: 0px;
+		margin: 0px;
+	}
+	body{
+		background-color: #33cccc; 
+	}
+@media (min-width: 992px){
+	.part1{
+		float: left;
+    	width: 50%;
+    	height:200px; 
+    	background-color: Aqua;
+	}
+
+	
+	
+	#linked_in{
+        width:20%;
+        height:90%;
+        padding: 10px;
+	}
+	#GitHub{
+		padding: 10px;
+        width:20%;
+        height:90%;
+	}
+	.menu{
+		text-align: left;
+	}
+	.m1 {
+	float:right;
+    display: inline-block;
+    position: relative;
+    top:40px;
+    margin: 0;
+    padding: 20px;
+}
+	a{
+		font-size: 30px;
+		line-height: 1.29;
+		padding-right: 20px;
+	}
+
+.me{
+	position:relative;
+	left: 35%;
+	border-radius: 70%;
+	width : 30%;
+	margin-top: 30px;
+}
+h1{
+	font-size: 50px;
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
+.s1,.s2,.s3{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+#c{
+	height:40px;
+}
+.last-menu{
+	list-style-type: none;
+}
+.i1{
+	float:left;
+	position: relative;
+    top:15px;
+    left:45%;
+    
+    padding: 0px;
+}
+.i2{
+	position: relative;
+	float:left;
+    left: 46%;
+    top:15px;
+    
+    padding: 0px;
+}
+	
+}
+ @media(min-width: 1167px) and (max-width: 1867px){
+ 	.i1{
+	float:left;
+	position: relative;
+    top:15px;
+    left:43%;
+    
+    padding: 0px;
+}
+.i2{
+	position: relative;
+	float:left;
+    left: 44%;
+    top:15px;
+    
+    padding: 0px;
+}
+ }
+@media(min-width: 992px) and (max-width: 1166px){
+
+.i1{
+	float:left;
+	position: relative;
+    top:15px;
+    left:40%;
+    
+    padding: 0px;
+}
+.i2{
+	position: relative;
+	float:left;
+    left: 42%;
+    top:15px;
+    
+    padding: 0px;
+}
+
+}
+@media(min-width: 762px) and (max-width: 991px){
+
+}	
+@media(max-width: 761px){
+
+}
